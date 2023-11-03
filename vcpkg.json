@@ -2,7 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
   "dependencies": [
     "opencv",
-    "cpr"
+    "cpr",
+    "nlohmann-json",
+    "civetweb"
   ],
   "builtin-baseline": "213c01f8719e0f8bd48ec6285074a22a7fe5e5a3"
 }
