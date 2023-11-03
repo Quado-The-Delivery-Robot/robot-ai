@@ -1,0 +1,8 @@
+#pragma once
+
+#ifndef HEADER_CONTROLLERS_HARDWARE_OPENDOOR
+#define HEADER_CONTROLLERS_HARDWARE_OPENDOOR
+
+bool openDoor();
+
+#endif

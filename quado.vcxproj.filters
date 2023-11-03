@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\startup">
+      <UniqueIdentifier>{4a321df5-31a8-4baa-ad38-80892c42892c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\startup">
+      <UniqueIdentifier>{a526a09d-f237-4cf9-8402-5097e3604a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vision">
+      <UniqueIdentifier>{17e3e420-b795-4103-a9ff-bb81f9435c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vision">
+      <UniqueIdentifier>{abb2a827-3c48-4fd1-845b-ccf2bb0fd93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers">
+      <UniqueIdentifier>{e2f7cd38-6b45-4e3b-a59b-406dd92f7091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\hardware">
+      <UniqueIdentifier>{0132eae5-2cea-4da2-af9f-a00b14cdab77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controllers">
+      <UniqueIdentifier>{afcbc278-5a7b-4ad6-b5f6-42ff16fc61c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controllers\hardware">
+      <UniqueIdentifier>{8aaebed9-1f6d-4b9d-bdcb-fd759fde1e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\software">
+      <UniqueIdentifier>{7c961847-aa44-40ae-8708-8db2bfc8a64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controllers\software">
+      <UniqueIdentifier>{5ab3672f-70c0-43a6-b122-a64802501dd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apiChecker.cpp">
+      <Filter>Source Files\startup</Filter>
+    </ClCompile>
+    <ClCompile Include="vision.cpp">
+      <Filter>Source Files\vision</Filter>
+    </ClCompile>
+    <ClCompile Include="openDoor.cpp">
+      <Filter>Source Files\controllers\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="detectCars.cpp">
+      <Filter>Source Files\vision</Filter>
+    </ClCompile>
+    <ClCompile Include="webServer.cpp">
+      <Filter>Source Files\controllers\software</Filter>
+    </ClCompile>
+    <ClCompile Include="communicateWebServerAddress.cpp">
+      <Filter>Source Files\startup</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="apiChecker.h">
+      <Filter>Header Files\startup</Filter>
+    </ClInclude>
+    <ClInclude Include="vision.h">
+      <Filter>Header Files\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="openDoor.h">
+      <Filter>Header Files\controllers\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="detectCars.h">
+      <Filter>Header Files\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="webServer.h">
+      <Filter>Header Files\controllers\software</Filter>
+    </ClInclude>
+    <ClInclude Include="communicateWebServerAddress.h">
+      <Filter>Header Files\startup</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="cars.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="erfnet_cityscapes.caffemodel">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="erfnet_cityscapes.prototxt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vcpkg.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
