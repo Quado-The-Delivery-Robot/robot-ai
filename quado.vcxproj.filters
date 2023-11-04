@@ -66,6 +66,9 @@
     <ClCompile Include="communicateWebServerAddress.cpp">
       <Filter>Source Files\startup</Filter>
     </ClCompile>
+    <ClCompile Include="redirectLogs.cpp">
+      <Filter>Source Files\startup</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apiChecker.h">
@@ -84,6 +87,9 @@
       <Filter>Header Files\controllers\software</Filter>
     </ClInclude>
     <ClInclude Include="communicateWebServerAddress.h">
+      <Filter>Header Files\startup</Filter>
+    </ClInclude>
+    <ClInclude Include="redirectLogs.h">
       <Filter>Header Files\startup</Filter>
     </ClInclude>
   </ItemGroup>

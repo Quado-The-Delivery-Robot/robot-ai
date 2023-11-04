@@ -150,6 +150,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="openDoor.cpp" />
     <ClCompile Include="apiChecker.cpp" />
+    <ClCompile Include="redirectLogs.cpp" />
     <ClCompile Include="vision.cpp" />
     <ClCompile Include="webServer.cpp" />
   </ItemGroup>
@@ -158,6 +159,7 @@
     <ClInclude Include="detectCars.h" />
     <ClInclude Include="openDoor.h" />
     <ClInclude Include="apiChecker.h" />
+    <ClInclude Include="redirectLogs.h" />
     <ClInclude Include="vision.h" />
     <ClInclude Include="webServer.h" />
   </ItemGroup>

@@ -13,7 +13,7 @@ void runVision()
 {
 	// Load the pre-trained Haar Cascade classifier for car detection.
 	CascadeClassifier carCascade;
-	carCascade.load("C:/Users/mredm/source/repos/Quado-The-Delivery-Robot/quado/cars.xml");
+	carCascade.load("cars.xml");
 
 	//--- INITIALIZE VIDEOCAPTURE
 	VideoCapture capture;
