@@ -1,27 +1,29 @@
 API is functional.
-[ INFO:0@4.058] global videoio_registry.cpp:244 cv::`anonymous-namespace'::VideoBackendRegistry::VideoBackendRegistry VIDEOIO: Enabled backends(9, sorted by priority): FFMPEG(1000); GSTREAMER(990); INTEL_MFX(980); MSMF(970); DSHOW(960); CV_IMAGES(950); CV_MJPEG(940); UEYE(930); OBSENSOR(920)
-[ INFO:0@4.058] global backend_plugin.cpp:383 cv::impl::getPluginCandidates Found 2 plugin(s) for GSTREAMER
-[ INFO:0@4.059] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\mredm\source\repos\quado\x64\Debug\opencv_videoio_gstreamer480_64d.dll => FAILED
-[ INFO:0@4.059] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_videoio_gstreamer480_64d.dll => FAILED
-[ INFO:0@4.115] global cap_msmf.cpp:1027 CvCapture_MSMF::configureHW MSMF: Using D3D11 video acceleration on GPU device: Intel(R) UHD Graphics 620
-[ INFO:0@4.120] global cap_msmf.cpp:546 `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
-[ INFO:0@4.311] global registry_parallel.impl.hpp:96 cv::parallel::ParallelBackendRegistry::ParallelBackendRegistry core(parallel): Enabled backends(3, sorted by priority): ONETBB(1000); TBB(990); OPENMP(980)
-[ INFO:0@4.312] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\mredm\source\repos\quado\x64\Debug\opencv_core_parallel_onetbb480_64d.dll => FAILED
-[ INFO:0@4.313] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_onetbb480_64d.dll => FAILED
-[ INFO:0@4.314] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\mredm\source\repos\quado\x64\Debug\opencv_core_parallel_tbb480_64d.dll => FAILED
-[ INFO:0@4.315] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_tbb480_64d.dll => FAILED
-[ INFO:0@4.315] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\mredm\source\repos\quado\x64\Debug\opencv_core_parallel_openmp480_64d.dll => FAILED
-[ INFO:0@4.316] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_openmp480_64d.dll => FAILED
-[ INFO:0@4.334] global ocl.cpp:1186 cv::ocl::haveOpenCL Initialize OpenCL runtime...
-[ INFO:0@4.668] global ocl.cpp:1192 cv::ocl::haveOpenCL OpenCL: found 1 platforms
-[ INFO:0@4.669] global ocl.cpp:984 cv::ocl::OpenCLExecutionContext::Impl::getInitializedExecutionContext OpenCL: initializing thread execution context
-[ INFO:0@4.669] global ocl.cpp:994 cv::ocl::OpenCLExecutionContext::Impl::getInitializedExecutionContext OpenCL: creating new execution context...
-[ INFO:0@4.672] global ocl.cpp:1012 cv::ocl::OpenCLExecutionContext::Impl::getInitializedExecutionContext OpenCL: device=Intel(R) UHD Graphics 620
-[ INFO:0@4.673] global ocl.cpp:5370 cv::ocl::Context::Impl::__init_buffer_pools OpenCL: Initializing buffer pool for context@0 with max capacity: poolSize=134217728 poolSizeHostPtr=134217728
-[ INFO:0@4.751] global registry.impl.hpp:114 cv::highgui_backend::UIBackendRegistry::UIBackendRegistry UI: Enabled backends(4, sorted by priority): GTK(1000); GTK3(990); GTK2(980); WIN32(970) + BUILTIN(WIN32UI)
-[ INFO:0@4.751] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\mredm\source\repos\quado\x64\Debug\opencv_highgui_gtk480_64.dll => FAILED
-[ INFO:0@4.752] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_highgui_gtk480_64.dll => FAILED
-[ INFO:0@4.752] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\mredm\source\repos\quado\x64\Debug\opencv_highgui_gtk3480_64.dll => FAILED
-[ INFO:0@4.754] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_highgui_gtk3480_64.dll => FAILED
-[ INFO:0@4.754] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\mredm\source\repos\quado\x64\Debug\opencv_highgui_gtk2480_64.dll => FAILED
-[ INFO:0@4.756] global plugin_loader.impl.hpp:67 cv::plugin::impl::Dy
+Started web server.
+Public ngrok url: "https://1184-72-251-148-247.ngrok-free.app"
+[ INFO:0@1.374] global videoio_registry.cpp:244 cv::`anonymous-namespace'::VideoBackendRegistry::VideoBackendRegistry VIDEOIO: Enabled backends(9, sorted by priority): FFMPEG(1000); GSTREAMER(990); INTEL_MFX(980); MSMF(970); DSHOW(960); CV_IMAGES(950); CV_MJPEG(940); UEYE(930); OBSENSOR(920)
+[ INFO:0@1.374] global backend_plugin.cpp:383 cv::impl::getPluginCandidates Found 2 plugin(s) for GSTREAMER
+[ INFO:0@1.374] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\lando\source\repos\quado\x64\Debug\opencv_videoio_gstreamer480_64d.dll => FAILED
+[ INFO:0@1.375] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_videoio_gstreamer480_64d.dll => FAILED
+[ INFO:0@1.446] global cap_msmf.cpp:1027 CvCapture_MSMF::configureHW MSMF: Using D3D11 video acceleration on GPU device: AMD Radeon RX 6800
+[ INFO:0@1.707] global registry_parallel.impl.hpp:96 cv::parallel::ParallelBackendRegistry::ParallelBackendRegistry core(parallel): Enabled backends(3, sorted by priority): ONETBB(1000); TBB(990); OPENMP(980)
+[ INFO:0@1.707] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\lando\source\repos\quado\x64\Debug\opencv_core_parallel_onetbb480_64d.dll => FAILED
+[ INFO:0@1.709] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_onetbb480_64d.dll => FAILED
+[ INFO:0@1.709] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\lando\source\repos\quado\x64\Debug\opencv_core_parallel_tbb480_64d.dll => FAILED
+[ INFO:0@1.710] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_tbb480_64d.dll => FAILED
+[ INFO:0@1.711] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\lando\source\repos\quado\x64\Debug\opencv_core_parallel_openmp480_64d.dll => FAILED
+[ INFO:0@1.712] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_openmp480_64d.dll => FAILED
+[ INFO:0@1.723] global ocl.cpp:1186 cv::ocl::haveOpenCL Initialize OpenCL runtime...
+[ INFO:0@1.754] global ocl.cpp:1192 cv::ocl::haveOpenCL OpenCL: found 1 platforms
+[ INFO:0@1.754] global ocl.cpp:984 cv::ocl::OpenCLExecutionContext::Impl::getInitializedExecutionContext OpenCL: initializing thread execution context
+[ INFO:0@1.754] global ocl.cpp:994 cv::ocl::OpenCLExecutionContext::Impl::getInitializedExecutionContext OpenCL: creating new execution context...
+[ INFO:0@2.329] global ocl.cpp:1012 cv::ocl::OpenCLExecutionContext::Impl::getInitializedExecutionContext OpenCL: device=gfx1030
+[ INFO:0@2.329] global ocl.cpp:5370 cv::ocl::Context::Impl::__init_buffer_pools OpenCL: Initializing buffer pool for context@0 with max capacity: poolSize=0 poolSizeHostPtr=0
+[ INFO:0@2.385] global registry.impl.hpp:114 cv::highgui_backend::UIBackendRegistry::UIBackendRegistry UI: Enabled backends(4, sorted by priority): GTK(1000); GTK3(990); GTK2(980); WIN32(970) + BUILTIN(WIN32UI)
+[ INFO:0@2.385] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\lando\source\repos\quado\x64\Debug\opencv_highgui_gtk480_64.dll => FAILED
+[ INFO:0@2.386] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_highgui_gtk480_64.dll => FAILED
+[ INFO:0@2.386] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\lando\source\repos\quado\x64\Debug\opencv_highgui_gtk3480_64.dll => FAILED
+[ INFO:0@2.388] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_highgui_gtk3480_64.dll => FAILED
+[ INFO:0@2.388] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load C:\Users\lando\source\repos\quado\x64\Debug\opencv_highgui_gtk2480_64.dll => FAILED
+[ INFO:0@2.389] global plugin_loader.impl.hpp:67 cv::plugin::impl::DynamicLib::libraryLoad load opencv_highgui_gtk2480_64.dll => FAILED
+[ INFO:0@2.389] global backend.cpp:90 cv::highgui_backend::createUIBackend UI: using backend: WI

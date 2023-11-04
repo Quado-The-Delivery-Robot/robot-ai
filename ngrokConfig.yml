@@ -1,0 +1,8 @@
+version: "2"
+authtoken: "2Xe4kUO1dUz11vMsOX0nIWJyvOe_77KmUcPGK4QEqZBrBjbkc"
+region: "us"
+tunnels:
+  quado:
+    addr: 2000
+    proto: http
+    inspect: false

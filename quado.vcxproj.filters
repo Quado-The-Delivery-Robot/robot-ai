@@ -63,7 +63,7 @@
     <ClCompile Include="webServer.cpp">
       <Filter>Source Files\controllers\software</Filter>
     </ClCompile>
-    <ClCompile Include="communicateWebServerAddress.cpp">
+    <ClCompile Include="startNgrok.cpp">
       <Filter>Source Files\startup</Filter>
     </ClCompile>
     <ClCompile Include="redirectLogs.cpp">
@@ -86,7 +86,7 @@
     <ClInclude Include="webServer.h">
       <Filter>Header Files\controllers\software</Filter>
     </ClInclude>
-    <ClInclude Include="communicateWebServerAddress.h">
+    <ClInclude Include="startNgrok.h">
       <Filter>Header Files\startup</Filter>
     </ClInclude>
     <ClInclude Include="redirectLogs.h">
@@ -109,6 +109,9 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include=".gitignore">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ngrokConfig.yml">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

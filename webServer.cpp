@@ -2,6 +2,8 @@
 #include <CivetServer.h>
 #include "webServer.h"
 
+using namespace std;
+
 const char* serverOptions[] = {
     "document_root", "",
     "listening_ports", "2000",
@@ -29,6 +31,8 @@ struct mg_context* startWebServer() {
 
     // Start route handlers.
     mg_set_request_handler(server, "/start", startRouteRequestHandler, nullptr);
+
+    cout << "Started web server." << endl;
 
     return server;
 }

@@ -145,7 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="communicateWebServerAddress.cpp" />
+    <ClCompile Include="startNgrok.cpp" />
     <ClCompile Include="detectCars.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="openDoor.cpp" />
@@ -155,7 +155,7 @@
     <ClCompile Include="webServer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="communicateWebServerAddress.h" />
+    <ClInclude Include="startNgrok.h" />
     <ClInclude Include="detectCars.h" />
     <ClInclude Include="openDoor.h" />
     <ClInclude Include="apiChecker.h" />
@@ -170,6 +170,7 @@
     <None Include=".gitignore" />
     <None Include="erfnet_cityscapes.caffemodel" />
     <None Include="erfnet_cityscapes.prototxt" />
+    <None Include="ngrokConfig.yml" />
     <None Include="vcpkg.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
