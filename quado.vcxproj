@@ -145,21 +145,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="data.cpp" />
     <ClCompile Include="startNgrok.cpp" />
     <ClCompile Include="detectCars.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="openDoor.cpp" />
     <ClCompile Include="apiChecker.cpp" />
     <ClCompile Include="redirectLogs.cpp" />
+    <ClCompile Include="startRouteRequestHandler.cpp" />
     <ClCompile Include="vision.cpp" />
     <ClCompile Include="webServer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="data.h" />
     <ClInclude Include="startNgrok.h" />
     <ClInclude Include="detectCars.h" />
     <ClInclude Include="openDoor.h" />
     <ClInclude Include="apiChecker.h" />
     <ClInclude Include="redirectLogs.h" />
+    <ClInclude Include="startRouteRequestHandler.h" />
     <ClInclude Include="vision.h" />
     <ClInclude Include="webServer.h" />
   </ItemGroup>
