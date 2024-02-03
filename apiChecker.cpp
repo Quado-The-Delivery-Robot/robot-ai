@@ -3,6 +3,7 @@
 #include <cpr/cpr.h>
 #include <nlohmann/json.hpp>
 #include "apiChecker.h"
+#include "data.h"
 
 using namespace cpr;
 using namespace std;
@@ -14,7 +15,7 @@ const string functionalStatus = "Functional.";
 
 // Checks to confirm if the API is online and functional.
 bool runApiChecker() {
-    Response fetch = Get(Url{ "https://api--name1234561po.repl.co" });
+    Response fetch = Get(Url{ apiUrl });
     json response = json::parse(fetch.text);
     
     // Check the status of the API. We want to return the status of the API which is either

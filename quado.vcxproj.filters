@@ -69,6 +69,12 @@
     <ClCompile Include="redirectLogs.cpp">
       <Filter>Source Files\startup</Filter>
     </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="startRouteRequestHandler.cpp">
+      <Filter>Source Files\controllers\software</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apiChecker.h">
@@ -91,6 +97,12 @@
     </ClInclude>
     <ClInclude Include="redirectLogs.h">
       <Filter>Header Files\startup</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="startRouteRequestHandler.h">
+      <Filter>Header Files\controllers\software</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

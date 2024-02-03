@@ -11,6 +11,9 @@ using namespace cpr;
 using namespace std;
 using json = nlohmann::json;
 
+const int functionalCodeMin = 200;
+const int functionalCodeMax = 299;
+
 FILE* startNgrokProcess() {
     const char* ngrokCommand = "ngrok --config ngrokConfig.yml start --all";
     FILE* ngrokProcess = _popen(ngrokCommand, "r");
@@ -24,10 +27,13 @@ FILE* startNgrok() {
     // Wait until ngrok has started.
     while (true) {
         Response fetch = Get(Url{ "http://localhost:4040/api/tunnels" });
-        json response = json::parse(fetch.text)["tunnels"][0];
 
-        if (response["public_url"] != nullptr) {
-            break;
+        if (fetch.status_code >= functionalCodeMin && fetch.status_code <= functionalCodeMax) {
+            json response = json::parse(fetch.text)["tunnels"][0];
+
+            if (response["public_url"] != nullptr) {
+                break;
+            }
         }
 
         // Delay so that we dont overload the program.

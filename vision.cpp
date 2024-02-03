@@ -21,7 +21,7 @@ void runVision()
 	// open the default camera using default API
 	// cap.open(0);
 	// OR advance usage: select any API backend
-	int deviceID = 0; // 0 = open default camera
+	int deviceID = 1; // 0 = open default camera
 	int apiID = CAP_ANY; // 0 = autodetect default API
 
 	// open selected camera using selected API
