@@ -1,3 +1,3 @@
 #include "data.h"
 
-const char* apiUrl = "https://api--name1234561po.repl.co";
+const char* apiUrl = "https://api.quadoapp.com";
