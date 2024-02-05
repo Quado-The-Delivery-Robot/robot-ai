@@ -363,4 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 vcpkg_installed/
-log.txt
+/log.txt
