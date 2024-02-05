@@ -43,6 +43,12 @@
     <Filter Include="Header Files\controllers\software">
       <UniqueIdentifier>{5ab3672f-70c0-43a6-b122-a64802501dd1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\ngrok">
+      <UniqueIdentifier>{cfab846a-d18e-4a47-b6c1-96f11b706831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\datasets">
+      <UniqueIdentifier>{37726187-5703-4da4-a11f-57d69d09a18a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -106,25 +112,31 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="cars.xml">
-      <Filter>Resource Files</Filter>
-    </Xml>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="erfnet_cityscapes.caffemodel">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="erfnet_cityscapes.prototxt">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="vcpkg.json">
       <Filter>Resource Files</Filter>
     </None>
     <None Include=".gitignore">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="ngrokConfig.yml">
-      <Filter>Resource Files</Filter>
+    <None Include="ngrok.exe">
+      <Filter>Resource Files\ngrok</Filter>
     </None>
+    <None Include="ngrokConfig.yml">
+      <Filter>Resource Files\ngrok</Filter>
+    </None>
+    <None Include="yolov7-tiny.onnx">
+      <Filter>Resource Files\datasets</Filter>
+    </None>
+    <None Include="erfnet_cityscapes.caffemodel">
+      <Filter>Resource Files\datasets</Filter>
+    </None>
+    <None Include="erfnet_cityscapes.prototxt">
+      <Filter>Resource Files\datasets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="cars.xml">
+      <Filter>Resource Files\datasets</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

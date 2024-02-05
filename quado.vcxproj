@@ -174,8 +174,10 @@
     <None Include=".gitignore" />
     <None Include="erfnet_cityscapes.caffemodel" />
     <None Include="erfnet_cityscapes.prototxt" />
+    <None Include="ngrok.exe" />
     <None Include="ngrokConfig.yml" />
     <None Include="vcpkg.json" />
+    <None Include="yolov7-tiny.onnx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
